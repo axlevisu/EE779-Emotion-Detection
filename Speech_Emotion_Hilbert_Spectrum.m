@@ -13,7 +13,7 @@ title('Acoustic Speech Signal');
 max=zeros(1,1);
 max_index=zeros(1,1);
 min=zeros(1,1);
-min_index=zeros(1,1);
+min_index=zeros(1   ,1);
 j=0; k=0;
 
 %%%%%Need to consider effect of noise on maxima & minima
@@ -69,8 +69,8 @@ for i=2:M-1
     end
 end
 
-% j
-% k
-% l
-%     
+disp(j)
+disp(k)
+disp(l)
+    
 
